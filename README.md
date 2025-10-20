@@ -71,7 +71,7 @@ All the translations for this repo will be listed below:
 - [Yorùbá (Yoruba)](https://github.com/ayobaj/33-js-concepts) - Ayomide Bajulaye
 - [עברית‎ (Hebrew)](https://github.com/rafyzg/33-js-concepts) — Refael Yzgea
 - [Nederlands (Dutch)](https://github.com/dlvisser/33-js-concepts) — Dave Visser
-- [தமிழ் (Tamil)] (https://github.com/UdayaKrishnanM/33-js-concepts) - Udaya Krishnan M
+- [தமிழ் (Tamil)](https://github.com/UdayaKrishnanM/33-js-concepts) - Udaya Krishnan M
 
 <hr>
 
@@ -115,9 +115,9 @@ All the translations for this repo will be listed below:
 
 ## 1. Call Stack
 
-<p>The call stack is a mechanism that the JavaScript interpreter uses to keep track of function execution within a program. In JavaScript, functions are executed in the order they are called. The call stack follows the Last In, First Out (LIFO) principle, meaning that the last function pushed onto the stack is the first one to be executed.</p>
+<p>కాల్ స్టాక్ అనేది జావాస్క్రిప్ట్ ఇంటర్‌ప్రెటర్ ఒక ప్రోగ్రామ్‌లోని ఫంక్షన్ అమలును ట్రాక్ చేయడానికి ఉపయోగించే ఒక యంత్రాంగం. జావాస్క్రిప్ట్‌లో, ఫంక్షన్‌లు అవి పిలువబడే క్రమంలో అమలు చేయబడతాయి. కాల్ స్టాక్ లాస్ట్ ఇన్, ఫస్ట్ అవుట్ (LIFO) సూత్రాన్ని అనుసరిస్తుంది, అంటే స్టాక్‌పైకి నెట్టబడిన చివరి ఫంక్షన్ మొదట అమలు చేయబడుతుంది.</p>
 
-<p>According to the ECMAScript specification, the call stack is defined as part of the execution context. Whenever a function is called, a new execution context is created and placed at the top of the stack. Once the function completes, its execution context is removed from the stack, and control returns to the previous context. This helps manage synchronous code execution, as each function call must complete before the next one can begin.</p>
+<p>ECMAScript స్పెసిఫికేషన్ ప్రకారం, కాల్ స్టాక్‌ను అమలు సందర్భంలో భాగంగా నిర్వచించారు. ఒక ఫంక్షన్‌ను పిలిచినప్పుడల్లా, ఒక కొత్త అమలు సందర్భం సృష్టించబడుతుంది మరియు స్టాక్ పైభాగంలో ఉంచబడుతుంది. ఫంక్షన్ పూర్తయిన తర్వాత, దాని అమలు సందర్భం స్టాక్ నుండి తీసివేయబడుతుంది మరియు నియంత్రణ మునుపటి సందర్భానికి తిరిగి వస్తుంది. ఇది సింక్రోనస్ కోడ్ అమలును నిర్వహించడానికి సహాయపడుతుంది, ఎందుకంటే ప్రతి ఫంక్షన్ కాల్ తదుపరిది ప్రారంభించే ముందు పూర్తి చేయాలి.</p>
 
 ### Reference
 
@@ -152,9 +152,9 @@ All the translations for this repo will be listed below:
 
 ## 2. Primitive Types
 
-<p>According to the ECMAScript specification, JavaScript has six primitive data types: string, number, bigint, boolean, undefined, and symbol. These types are immutable, meaning their values cannot be altered. There is also a special primitive type called null, which represents the intentional absence of any object value.</p>
+<p>ECMAScript స్పెసిఫికేషన్ ప్రకారం, జావాస్క్రిప్ట్ ఆరు ప్రిమిటివ్ డేటా రకాలను కలిగి ఉంది: స్ట్రింగ్, నంబర్, బిజింట్, బూలియన్, అన్‌డిఫైన్డ్ మరియు సింబల్. ఈ రకాలు మార్పులేనివి, అంటే వాటి విలువలను మార్చలేము. నల్ అని పిలువబడే ఒక ప్రత్యేక ప్రిమిటివ్ రకం కూడా ఉంది, ఇది ఏదైనా ఆబ్జెక్ట్ విలువ ఉద్దేశపూర్వకంగా లేకపోవడాన్ని సూచిస్తుంది.</p>
 
-<p>Primitive values are directly assigned to a variable, and when you manipulate a primitive type, you're working directly on the value. Unlike objects, primitives do not have properties or methods, but JavaScript automatically wraps primitive values with object counterparts when necessary (e.g., when calling methods on strings).</p>
+<p>ప్రిమిటివ్ విలువలు నేరుగా వేరియబుల్‌కు కేటాయించబడతాయి మరియు మీరు ఒక ప్రిమిటివ్ రకాన్ని మార్చినప్పుడు, మీరు నేరుగా విలువపై పని చేస్తున్నారు. ఆబ్జెక్ట్‌ల మాదిరిగా కాకుండా, ప్రిమిటివ్‌లకు లక్షణాలు లేదా పద్ధతులు ఉండవు, కానీ జావాస్క్రిప్ట్ అవసరమైనప్పుడు ఆబ్జెక్ట్ ప్రతిరూపాలతో ప్రిమిటివ్ విలువలను స్వయంచాలకంగా చుట్టేస్తుంది (ఉదా., స్ట్రింగ్‌లపై మెథడ్‌లను కాల్ చేస్తున్నప్పుడు).</p>
 
 ### Reference
 
@@ -191,9 +191,9 @@ All the translations for this repo will be listed below:
 
 ## 3. Value Types and Reference Types
 
-<p>According to the ECMAScript specification, value types are stored directly in the location that the variable accesses. These include types like number, string, boolean, undefined, bigint, symbol, and null. When you assign a value type to a variable, the value itself is stored.</p>
+<p>ECMAScript స్పెసిఫికేషన్ ప్రకారం, విలువ రకాలు వేరియబుల్ యాక్సెస్ చేసే స్థానంలో నేరుగా నిల్వ చేయబడతాయి. వీటిలో సంఖ్య, స్ట్రింగ్, బూలియన్, నిర్వచించబడలేదు, బిజింట్, సింబల్ మరియు శూన్య వంటి రకాలు ఉంటాయి. మీరు వేరియబుల్‌కు విలువ రకాన్ని కేటాయించినప్పుడు, విలువ కూడా నిల్వ చేయబడుతుంది.</p>
 
-<p>Reference types, on the other hand, are objects stored in the heap. Variables assigned to reference types actually store references (pointers) to the objects, not the objects themselves. When you assign a reference type to another variable, both variables reference the same object in memory.</p>
+<p>మరోవైపు, రిఫరెన్స్ రకాలు అనేవి కుప్పలో నిల్వ చేయబడిన వస్తువులు. రిఫరెన్స్ రకాలకు కేటాయించబడిన వేరియబుల్స్ వాస్తవానికి ఆబ్జెక్ట్‌లకు కాకుండా ఆబ్జెక్ట్‌లకు రిఫరెన్స్‌లను (పాయింటర్‌లను) నిల్వ చేస్తాయి. మీరు రిఫరెన్స్ రకాన్ని మరొక వేరియబుల్‌కు కేటాయించినప్పుడు, రెండు వేరియబుల్స్ మెమరీలో ఒకే ఆబ్జెక్ట్‌ను సూచిస్తాయి.</p>
 
 ### <img align="center" width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
 
@@ -222,17 +222,17 @@ All the translations for this repo will be listed below:
 
 ## 4. Implicit, Explicit, Nominal, Structuring and Duck Typing
 
-<p>The ECMAScript specification defines JavaScript as a dynamically typed language, meaning that types are associated with values rather than variables, and type checking occurs at runtime. There are various ways JavaScript manages types:</p>
+<p>ECMAScript స్పెసిఫికేషన్ జావాస్క్రిప్ట్‌ను డైనమిక్‌గా టైప్ చేసిన భాషగా నిర్వచిస్తుంది, అంటే రకాలు వేరియబుల్స్‌తో కాకుండా విలువలతో అనుబంధించబడతాయి మరియు రన్‌టైమ్‌లో టైప్ చెకింగ్ జరుగుతుంది. జావాస్క్రిప్ట్ రకాలను నిర్వహించడానికి వివిధ మార్గాలు ఉన్నాయి:</p>
 
-<p><strong>Implicit Typing (or Type Coercion):</strong> This occurs when JavaScript automatically converts one data type to another when required. For instance, JavaScript might convert a string to a number during an arithmetic operation. While this can simplify some code, it can also lead to unexpected results if not handled carefully.</p>
+<p><strong>ఇంప్లిసిట్ టైపింగ్ (లేదా టైప్ కోయర్షన్):</strong> అవసరమైనప్పుడు జావాస్క్రిప్ట్ స్వయంచాలకంగా ఒక డేటా రకాన్ని మరొకదానికి మార్చినప్పుడు ఇది జరుగుతుంది. ఉదాహరణకు, జావాస్క్రిప్ట్ ఒక అంకగణిత ఆపరేషన్ సమయంలో స్ట్రింగ్‌ను సంఖ్యగా మార్చవచ్చు. ఇది కొంత కోడ్‌ను సరళీకృతం చేయగలదు, జాగ్రత్తగా నిర్వహించకపోతే అది ఊహించని ఫలితాలకు కూడా దారితీయవచ్చు.</p>
 
-<p><strong>Explicit Typing:</strong> Unlike implicit typing, explicit typing involves manually converting a value from one type to another using functions like Number(), String(), or Boolean().</p>
+<p><strong>స్పష్టమైన టైపింగ్:</strong> ఇంప్లిసిట్ టైపింగ్ వలె కాకుండా, స్పష్టమైన టైపింగ్‌లో నంబర్(), స్ట్రింగ్() లేదా బూలియన్() వంటి ఫంక్షన్‌లను ఉపయోగించి ఒక రకం నుండి మరొకదానికి విలువను మాన్యువల్‌గా మార్చడం ఉంటుంది.</p>
 
-<p><strong>Nominal Typing:</strong> JavaScript doesn't natively support nominal typing, where types are explicitly declared and checked. However, TypeScript, a superset of JavaScript, brings this feature to help catch type errors during development.</p>
+<p><strong>నామినల్ టైపింగ్:</strong> జావాస్క్రిప్ట్ స్థానికంగా నామినల్ టైపింగ్‌కు మద్దతు ఇవ్వదు, ఇక్కడ రకాలు స్పష్టంగా ప్రకటించబడి తనిఖీ చేయబడతాయి. అయితే, జావాస్క్రిప్ట్ యొక్క సూపర్‌సెట్ అయిన టైప్‌స్క్రిప్ట్, అభివృద్ధి సమయంలో టైప్ ఎర్రర్‌లను గుర్తించడంలో సహాయపడటానికి ఈ ఫీచర్‌ను తీసుకువస్తుంది.</p>
 
-<p><strong>Structural Typing:</strong> In this type system, types are based on the structure or properties of the data. JavaScript is a structurally typed language where objects are compatible if they share the same structure (i.e., the same set of properties and methods).</p>
+<p><strong>స్ట్రక్చరల్ టైపింగ్:</strong> ఈ టైప్ సిస్టమ్‌లో, రకాలు డేటా యొక్క నిర్మాణం లేదా లక్షణాలపై ఆధారపడి ఉంటాయి. జావాస్క్రిప్ట్ అనేది నిర్మాణాత్మకంగా టైప్ చేయబడిన భాష, ఇక్కడ వస్తువులు ఒకే నిర్మాణాన్ని పంచుకుంటే (అంటే, ఒకే లక్షణాలు మరియు పద్ధతుల సమితి) అనుకూలంగా ఉంటాయి.</p>
 
-<p><strong>Duck Typing:</strong> This is a concept where an object's suitability is determined by the presence of certain properties and methods, rather than by the actual type of the object. JavaScript relies heavily on duck typing, where behavior is inferred from an object's properties rather than its declared type.</p>
+<p><strong>డక్ టైపింగ్:</strong> ఇది ఒక భావన, ఇక్కడ ఒక వస్తువు యొక్క అనుకూలతను వస్తువు యొక్క వాస్తవ రకం ద్వారా కాకుండా కొన్ని లక్షణాలు మరియు పద్ధతుల ఉనికి ద్వారా నిర్ణయించబడుతుంది. జావాస్క్రిప్ట్ డక్ టైపింగ్‌పై ఎక్కువగా ఆధారపడుతుంది, ఇక్కడ ప్రవర్తన దాని ప్రకటించిన రకం కంటే వస్తువు యొక్క లక్షణాల నుండి ఊహించబడుతుంది.</p>
 
 ### <img align="center" width="30" height="30" src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
 
@@ -260,13 +260,13 @@ All the translations for this repo will be listed below:
 ---
 
 ## 5. == vs === vs typeof
- According to the ECMAScript specification, JavaScript includes both strict (===) and loose (==) equality operators, which behave differently when comparing values. Here's a breakdown:
+ECMAScript స్పెసిఫికేషన్ ప్రకారం, జావాస్క్రిప్ట్ కఠినమైన (===) మరియు వదులుగా (==) సమానత్వ ఆపరేటర్లను కలిగి ఉంటుంది, ఇవి విలువలను పోల్చినప్పుడు భిన్నంగా ప్రవర్తిస్తాయి. ఇక్కడ ఒక వివరణ ఉంది:
 
-== (Loose Equality): This operator performs type coercion before comparing two values. If the values are of different types, JavaScript will attempt to convert one or both values to a common type before comparison, which can lead to unexpected results.
+== (లూస్ ఈక్వాలిటీ): ఈ ఆపరేటర్ రెండు విలువలను పోల్చడానికి ముందు టైప్ కోయర్షన్‌ను నిర్వహిస్తుంది. విలువలు వేర్వేరు రకాలుగా ఉంటే, జావాస్క్రిప్ట్ పోలికకు ముందు ఒకటి లేదా రెండు విలువలను సాధారణ రకానికి మార్చడానికి ప్రయత్నిస్తుంది, ఇది ఊహించని ఫలితాలకు దారితీస్తుంది.
 
-=== (Strict Equality): This operator compares both the value and the type without any type coercion. If the two values are not of the same type, the comparison will return false.
+=== (స్ట్రిక్ట్ ఈక్వాలిటీ): ఈ ఆపరేటర్ విలువ మరియు రకం రెండింటినీ ఎటువంటి టైప్ కోయర్షన్ లేకుండా పోలుస్తుంది. రెండు విలువలు ఒకే రకానికి చెందినవి కాకపోతే, పోలిక తప్పుగా తిరిగి వస్తుంది.
 
-typeof Operator: The typeof operator is used to check the data type of a variable. While it's generally reliable, there are certain quirks, like how typeof null returns "object" instead of "null", due to a long-standing behavior in JavaScript's implementation.
+ఆపరేటర్ రకం: వేరియబుల్ యొక్క డేటా రకాన్ని తనిఖీ చేయడానికి ఆపరేటర్ రకం ఉపయోగించబడుతుంది. ఇది సాధారణంగా నమ్మదగినది అయినప్పటికీ, జావాస్క్రిప్ట్ అమలులో దీర్ఘకాలిక ప్రవర్తన కారణంగా, టైప్ ఆఫ్ శూన్య రకం "శూన్య"కి బదులుగా "వస్తువు"ని ఎలా తిరిగి ఇస్తుంది వంటి కొన్ని విచిత్రాలు ఉన్నాయి.
 
 ### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
 
@@ -295,13 +295,13 @@ typeof Operator: The typeof operator is used to check the data type of a variabl
 ---
 
 ## 6. Function Scope, Block Scope and Lexical Scope
- The ECMAScript specification outlines three key types of scope:
+ ECMAScript స్పెసిఫికేషన్ మూడు కీలక రకాల పరిధిని వివరిస్తుంది:
 
-Function Scope: Variables declared within a function using var are only accessible within that function. This scope isolates variables from being accessed outside of the function where they are declared.
+ఫంక్షన్ స్కోప్: var ఉపయోగించి ఒక ఫంక్షన్‌లో ప్రకటించబడిన వేరియబుల్స్ ఆ ఫంక్షన్‌లో మాత్రమే యాక్సెస్ చేయబడతాయి. ఈ స్కోప్ వేరియబుల్స్‌ను అవి ప్రకటించబడిన ఫంక్షన్ వెలుపల యాక్సెస్ చేయకుండా వేరు చేస్తుంది.
 
-Block Scope: Introduced with ES6, variables declared with let and const are block-scoped. This means they are only accessible within the specific block {} in which they are defined, such as inside loops or conditionals.
+బ్లాక్ స్కోప్: ES6తో పరిచయం చేయబడిన, let మరియు constతో ప్రకటించబడిన వేరియబుల్స్ బ్లాక్-స్కోప్ చేయబడ్డాయి. దీని అర్థం అవి నిర్వచించబడిన నిర్దిష్ట బ్లాక్ {}లో మాత్రమే యాక్సెస్ చేయబడతాయి, ఉదాహరణకు లూప్‌ల లోపల లేదా షరతులతో.
 
-Lexical Scope: Refers to how variable access is determined based on the physical location of the variables in the code. Functions are lexically scoped, meaning that they can access variables from their parent scope.
+లెక్సికల్ స్కోప్: కోడ్‌లోని వేరియబుల్స్ యొక్క భౌతిక స్థానం ఆధారంగా వేరియబుల్ యాక్సెస్ ఎలా నిర్ణయించబడుతుందో సూచిస్తుంది. ఫంక్షన్‌లు లెక్సికల్‌గా స్కోప్ చేయబడతాయి, అంటే అవి వాటి మాతృ పరిధి నుండి వేరియబుల్స్‌ను యాక్సెస్ చేయగలవు.
 
 ### Books
 
@@ -339,7 +339,7 @@ Lexical Scope: Refers to how variable access is determined based on the physical
 ---
 
 ## 7. Expression vs Statement
-According to the ECMAScript specification, expressions produce a value, and statements are instructions to perform an action, such as variable assignment or control flow. Function declarations are hoisted and can be called before they are defined in the code, while function expressions are not hoisted and must be defined before being invoked.
+ECMAScript స్పెసిఫికేషన్ ప్రకారం, వ్యక్తీకరణలు ఒక విలువను ఉత్పత్తి చేస్తాయి మరియు స్టేట్‌మెంట్‌లు వేరియబుల్ అసైన్‌మెంట్ లేదా కంట్రోల్ ఫ్లో వంటి చర్యను నిర్వహించడానికి సూచనలు. ఫంక్షన్ డిక్లరేషన్‌లు ఎగురవేయబడతాయి మరియు అవి కోడ్‌లో నిర్వచించబడటానికి ముందు పిలువబడతాయి, అయితే ఫంక్షన్ వ్యక్తీకరణలు ఎగురవేయబడవు మరియు ఇన్వోక్ చేయబడటానికి ముందు నిర్వచించబడాలి.
 
 ### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
 
@@ -365,7 +365,7 @@ According to the ECMAScript specification, expressions produce a value, and stat
 ---
 
 ## 8. IIFE, Modules and Namespaces
-With the introduction of ES6 modules, the role of IIFEs in scope isolation has diminished but they still remain relevant.
+ES6 మాడ్యూల్స్ ప్రవేశపెట్టడంతో, స్కోప్ ఐసోలేషన్‌లో IIFEల పాత్ర తగ్గింది కానీ అవి ఇప్పటికీ సంబంధితంగానే ఉన్నాయి.
 ### Reference
 
 -  [IIFE — MDN](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
@@ -402,7 +402,7 @@ With the introduction of ES6 modules, the role of IIFEs in scope isolation has d
 ---
 
 ## 9. Message Queue and Event Loop
-The Event Loop is a critical part of JavaScript's concurrency model, ensuring non-blocking behavior by processing tasks in an asynchronous manner. Understanding how it interacts with the Message Queue and Microtasks is key to mastering JavaScript behavior.
+ఈవెంట్ లూప్ అనేది జావాస్క్రిప్ట్ యొక్క కాన్‌కరెన్సీ మోడల్‌లో కీలకమైన భాగం, అసమకాలిక పద్ధతిలో టాస్క్‌లను ప్రాసెస్ చేయడం ద్వారా నిరోధించని ప్రవర్తనను నిర్ధారిస్తుంది. మెసేజ్ క్యూ మరియు మైక్రోటాస్క్‌లతో ఇది ఎలా సంకర్షణ చెందుతుందో అర్థం చేసుకోవడం జావాస్క్రిప్ట్ ప్రవర్తనను మాస్టరింగ్ చేయడానికి కీలకం.
 ### <img  align= center width=40px height=40px src="https://cdn-icons-png.flaticon.com/512/1945/1945940.png"> Articles
 
 -  [JavaScript Event Loop Explained — Anoop Raveendran](https://medium.com/front-end-hacking/javascript-event-loop-explained-4cd26af121d4)
